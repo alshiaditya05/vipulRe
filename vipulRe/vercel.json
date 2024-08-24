@@ -1,5 +1,0 @@
-  {
-    "version": 2,
-    "builds": [{ "src": "vipulRe/index.js", "use": "@vercel/node" }],
-    "rewrites": [{ "source": "/(.*)", "destination": "vipulRe/index.js" }]
-  }
